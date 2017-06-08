@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout style="@style/recycler_relative_layout">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler"
+                style="@style/recycler_view" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+        <View style="@style/divider_view" />
+
+        <TextView
+            android:id="@+id/problemText"
+            style="@style/problem_text" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/progress_bar" />
+
+    </RelativeLayout>
+
+</layout>

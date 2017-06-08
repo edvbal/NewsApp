@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="protocol_error">Protocol error</string>
+    <string name="https_error">Error HTTPS request response code :</string>
+    <string name="problem_json_parse">Problem parsing JSON results</string>
+    <string name="no_news_found">Sorry, there are no news</string>
+</resources>
